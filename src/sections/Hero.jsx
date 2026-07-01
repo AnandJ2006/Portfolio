@@ -8,13 +8,6 @@ export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-3xl text-center">
-        <motion.span
-          custom={0} variants={fadeUp} initial="hidden" animate="visible"
-          className="inline-block text-sm font-medium text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-4 py-1.5 rounded-full mb-6"
-        >
-          👋 Available for work
-        </motion.span>
-
         <motion.h1
           custom={1} variants={fadeUp} initial="hidden" animate="visible"
           className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4"

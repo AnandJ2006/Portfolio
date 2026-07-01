@@ -20,21 +20,14 @@ const projects = [
     tags: ['React', 'Express', 'MongoDB'],
   },
   {
-    title: 'Task Management App',
-    description: 'Drag-and-drop task board with team collaboration features, deadlines, and priority labels.',
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop',
+    title: 'E-Commerce (Gadgets)',
+    description: 'A modern e-commerce platform for browsing and purchasing gadgets with product listings, filters, cart functionality, and a seamless checkout experience.',
+    image: 'https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=600&h=400&fit=crop',
     demo: 'https://demo.example.com',
     github: 'https://github.com',
-    tags: ['React', 'Redux', 'Firebase'],
+    tags: ['Next.js', 'Express', 'MongoDB'],
   },
-  {
-    title: 'Portfolio Website',
-    description: 'Modern developer portfolio with dark theme, smooth animations, and responsive design.',
-    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop',
-    demo: 'https://demo.example.com',
-    github: 'https://github.com',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
-  },
+
 ];
 
 export default function Projects() {

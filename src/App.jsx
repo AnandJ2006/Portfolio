@@ -6,6 +6,7 @@ import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import CodingProfiles from './sections/CodingProfiles';
+import Certificates from './sections/Certificates';
 import Contact from './sections/Contact';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Skills />
         <Projects />
         <CodingProfiles />
+        <Certificates />
         <Contact />
       </main>
       <Footer />
