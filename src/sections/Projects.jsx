@@ -9,7 +9,7 @@ const projects = [
     image: '/hospital =managementsystem.png',
     demo: 'https://frontend-hospital-management-system-nu.vercel.app/',
     github: 'https://github.com/AnandJ2006/Frontend-Hospital-Management-System-',
-    tags: ['React', 'Tailwind', 'Vercel'],
+    tags: ['React', 'Express', 'MongoDB'],
   },
   {
     title: 'Fruit & Vegetable Market',
@@ -17,7 +17,7 @@ const projects = [
     image: '/Furitandvegetablemarket.png',
     demo: 'https://fruits-and-vegetable-market-shop.vercel.app/home',
     github: 'https://github.com/AnandJ2006/Fruits-and-Vegetable-Market-shop-FRONTEND',
-    tags: ['React', 'Tailwind', 'Vercel'],
+    tags: ['React', 'Express', 'MongoDB'],
   },
   {
     title: 'Task Management App',

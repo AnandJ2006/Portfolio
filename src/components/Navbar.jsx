@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const links = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
+const links = ['Home', 'About', 'Skills', 'Projects', 'Coding', 'Contact'];
 
 export default function Navbar() {
   const [active, setActive] = useState('Home');
@@ -23,7 +23,8 @@ export default function Navbar() {
   }, []);
 
   const scrollTo = (id) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' });
+    const sectionId = id === 'Coding' ? 'coding' : id.toLowerCase();
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setMenuOpen(false);
   };
 
