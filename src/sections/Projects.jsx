@@ -23,8 +23,8 @@ const projects = [
     title: 'E-Commerce (Gadgets)',
     description: 'A modern e-commerce platform for browsing and purchasing gadgets with product listings, filters, cart functionality, and a seamless checkout experience.',
     image: 'https://images.unsplash.com/photo-1468495244123-6c6c332eeece?w=600&h=400&fit=crop',
-    demo: 'https://demo.example.com',
-    github: 'https://github.com',
+    demo: 'https://gadget-store-cyan.vercel.app/',
+    github: 'https://github.com/AnandJ2006/Gadget-Store---Next.js',
     tags: ['Next.js', 'Express', 'MongoDB'],
   },
 
